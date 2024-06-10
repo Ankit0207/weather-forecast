@@ -49,7 +49,7 @@ body.nightmode {
 .header {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 88px;
+  margin-bottom: 70px;
 }
 
 .col-6 {
@@ -350,12 +350,13 @@ p.weather-type {
     gap: 70px;
   }
 
-  #units {
-    display: flex;
+  .col-7 {
+    width: 80%;
   }
 
   .col-5 {
     width: 90%;
+
   }
 
   .body {
@@ -365,11 +366,18 @@ p.weather-type {
     gap: 90px;
   }
 
+  .col-3>img{
+    padding-top:20px;
+  }
+
+
+
   .col-3 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
+    padding-left: 60px;
   }
 
   #weather-icon {
@@ -403,10 +411,17 @@ p.weather-type {
     gap: 90px;
   }
 
+  .col-3>img {
+    padding-top: 20px;
+
+  }
+
   .col-3 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 70%;
+    align-items: center;
+    width: 80%;
+    padding-left: 90px;
   }
 }
